@@ -33,7 +33,7 @@
             android:background="@null"
             android:contentDescription="@string/ImageButton1"
             android:scaleType="fitCenter"
-            android:src="@drawable/Craft_1" />
+            android:src="@drawable/boton1" />
 
         <ImageButton
             android:id="@+id/btn_dashboard_2"
@@ -43,7 +43,7 @@
             android:background="@null"
             android:contentDescription="@string/ImageButton2"
             android:scaleType="fitCenter"
-            android:src="@drawable/Jordan_rio_1" />
+            android:src="@drawable/boton2" />
 
         <ImageButton
             android:id="@+id/btn_dashboard_3"
@@ -53,7 +53,7 @@
             android:background="@null"
             android:contentDescription="@string/ImageButton3"
             android:scaleType="fitCenter"
-            android:src="@drawable/Mid_1" />
+            android:src="@drawable/boton3" />
 
     </LinearLayout>
 
@@ -75,7 +75,7 @@
             android:background="@null"
             android:contentDescription="@string/ImageButton4"
             android:scaleType="fitCenter"
-            android:src="@drawable/Spizike_1" />
+            android:src="@drawable/boton4" />
 
         <ImageButton
             android:id="@+id/btn_dashboard_5"
@@ -85,7 +85,16 @@
             android:background="@null"
             android:contentDescription="@string/ImageButton5"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_dashboard_5" />
+            android:src="@drawable/boton5" />
+        <ImageButton
+            android:id="@+id/btn_dashboard_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@string/ImageButton5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boton6" />
 
     </LinearLayout>
 
