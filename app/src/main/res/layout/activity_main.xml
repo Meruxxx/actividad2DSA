@@ -63,7 +63,7 @@
         android:layout_height="155dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
@@ -87,15 +87,6 @@
             android:scaleType="fitCenter"
             android:src="@drawable/ic_dashboard_5" />
 
-        <ImageButton
-            android:id="@+id/btn_dashboard_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:contentDescription="@string/ImageButton6"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_dashboard_6" />
     </LinearLayout>
 
 
