@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Actividad2</string>
-    <string name="ImageButton1">Imagen1</string>
-    <string name="ImageButton2">Imagen2</string>
-    <string name="ImageButton3">Imagen3</string>
-    <string name="ImageButton4">Imagen4</string>
-    <string name="ImageButton5">Imagen5</string>
-    <string name="ImageButton6">Imagen6</string>
+    <string name="ImageButton1">Craft</string>
+    <string name="ImageButton2">Jordan Rio</string>
+    <string name="ImageButton3">Mid</string>
+    <string name="ImageButton4">Spizike</string>
+    <string name="ImageButton5">Retro</string>
+    <string name="ImageButton6">Metcom</string>
 </resources>
