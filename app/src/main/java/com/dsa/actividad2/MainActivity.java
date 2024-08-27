@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Spizike", Toast.LENGTH_SHORT).show();
-                Intent intencion1 = new Intent(MainActivity.this, Craft.class);
+                Intent intencion1 = new Intent(MainActivity.this, spizike.class);
                 startActivity(intencion1);
             }
 
