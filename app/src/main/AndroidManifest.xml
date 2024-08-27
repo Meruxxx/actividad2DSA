@@ -16,6 +16,9 @@
             android:name=".Mid"
             android:exported="false" />
         <activity
+            android:name=".jordan_rio"
+            android:exported="false" />
+        <activity
             android:name=".Craft"
             android:exported="false" />
         <activity
