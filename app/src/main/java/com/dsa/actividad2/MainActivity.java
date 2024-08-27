@@ -28,15 +28,22 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btnDashboard1 = findViewById(R.id.btn_dashboard_1);
         ImageButton btnDashboard2 = findViewById(R.id.btn_dashboard_2);
         ImageButton btnDashboard3 = findViewById(R.id.btn_dashboard_3);
+        ImageButton btnDashboard4 = findViewById(R.id.btn_dashboard_4);
+        ImageButton btnDashboard5 = findViewById(R.id.btn_dashboard_5);
+        ImageButton btnDashboard6 = findViewById(R.id.btn_dashboard_6);
 
 
-        btnDashboard1.setOnClickListener(v -> Toast.makeText(MainActivity.this, "Botón 1 presionado", Toast.LENGTH_SHORT).show());
+
+        btnDashboard1.setOnClickListener(v -> Toast.makeText(MainActivity.this, "Craft", Toast.LENGTH_SHORT).show());
         btnDashboard2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this,"Botón 2 presionado",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Jordan Rio",Toast.LENGTH_SHORT).show();
             }
         });
-        btnDashboard3.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Botón 3 presionado",Toast.LENGTH_SHORT).show());
+        btnDashboard3.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Mid",Toast.LENGTH_SHORT).show());
+        btnDashboard4.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Spizike",Toast.LENGTH_SHORT).show());
+        btnDashboard5.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Retro",Toast.LENGTH_SHORT).show());
+        btnDashboard6.setOnClickListener(view -> Toast.makeText(MainActivity.this, "Metcom",Toast.LENGTH_SHORT).show());
     }
 }
