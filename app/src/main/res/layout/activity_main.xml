@@ -72,7 +72,7 @@
                 android:layout_weight="1"
                 android:background="@null"
                 android:contentDescription="@string/ImageButton4"
-                android:scaleType="fitCenter"
+                android:scaleType="centerCrop"
                 android:src="@drawable/boton4" />
 
         </TableRow>
