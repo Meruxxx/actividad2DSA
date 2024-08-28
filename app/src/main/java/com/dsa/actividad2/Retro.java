@@ -11,25 +11,25 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class spizike extends AppCompatActivity implements View.OnClickListener {
+public class Retro extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_spizike);
+        setContentView(R.layout.activity_retro);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.btnRetro), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button btnspizike = findViewById(R.id.btnspizike);
-        btnspizike.setOnClickListener(this);
+        Button btnRetro=findViewById(R.id.btnRetro);
+        btnRetro.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
-        Intent intencion1 =new Intent(this,MainActivity.class);
-        startActivity(intencion1);
+        Intent intento1 = new Intent(this, MainActivity.class);
+        startActivity(intento1);
     }
 }

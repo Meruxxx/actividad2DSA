@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.btnRetro), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Retro", Toast.LENGTH_SHORT).show();
-                Intent intencion1 = new Intent(MainActivity.this, Craft.class);
+                Intent intencion1 = new Intent(MainActivity.this, Retro.class);
                 startActivity(intencion1);
             }
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Metcom", Toast.LENGTH_SHORT).show();
-                Intent intencion1 = new Intent(MainActivity.this, Craft.class);
+                Intent intencion1 = new Intent(MainActivity.this, Metcom.class);
                 startActivity(intencion1);
             }
 

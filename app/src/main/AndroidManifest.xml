@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Actividad2"
         tools:targetApi="31">
         <activity
+            android:name=".Metcom"
+            android:exported="false" />
+        <activity
+            android:name=".Retro"
+            android:exported="false" />
+        <activity
             android:name=".spizike"
             android:exported="false" />
         <activity
